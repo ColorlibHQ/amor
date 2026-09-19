@@ -149,77 +149,77 @@
 			$scripts = array(
 				'style' => array(
 					array(
-						'handler'		=> 'google-font',
+						'handler'		=> 'amor-google-font',
 						'file' 			=> $this->google_font(),
 					),
 					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'amor-bootstrap',
 						'file' 			=> $cssPath.'bootstrap.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '5.3.8-4',
 					),
 					array(
-						'handler'		=> 'animate',
+						'handler'		=> 'amor-animate',
 						'file' 			=> $cssPath.'animate.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'owl-carousel',
+						'handler'		=> 'amor-owl-carousel',
 						'file' 			=> $cssPath.'owl.carousel.min.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'font-awesome',
+						'handler'		=> 'amor-font-awesome',
 						'file' 			=> $cssPath.'font-awesome.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '7.3.1-1',
 					),
 					array(
-						'handler'		=> 'themify',
+						'handler'		=> 'amor-themify',
 						'file' 			=> $cssPath.'themify-icons.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					// array(
-					// 	'handler'		=> 'all-css',
+					// 	'handler'		=> 'amor-all-css',
 					// 	'file' 			=> $cssPath.'all.css',
 					// 	'dependency' 	=> array(),
 					// 	'version' 		=> '1.0',
 					// ),
 					array(
-						'handler'		=> 'flaticon',
+						'handler'		=> 'amor-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'magnific-popup-css',
+						'handler'		=> 'amor-magnific-popup-css',
 						'file' 			=> $cssPath.'magnific-popup.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'nice-select-css',
+						'handler'		=> 'amor-nice-select-css',
 						'file' 			=> $cssPath.'nice-select.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'slick-css',
+						'handler'		=> 'amor-slick-css',
 						'file' 			=> $cssPath.'slick.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'default-css',
+						'handler'		=> 'amor-default-css',
 						'file' 			=> $cssPath.'default.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'style-css',
+						'handler'		=> 'amor-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
@@ -233,112 +233,98 @@
 				
 				'scripts' => array(
 					array(
-						'handler'		=> 'popper',
-						'file' 			=> $jsPath.'popper.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'amor-bootstrap',
 						'file' 			=> $jsPath.'bootstrap.min.js',
 						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.1.3',
+						'version' 		=> '5.3.8-4',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'magnific-popup-js',
+						'handler'		=> 'amor-magnific-popup-js',
 						'file' 			=> $jsPath.'jquery.magnific-popup.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'swiper-min-js',
+						'handler'		=> 'amor-swiper-min-js',
 						'file' 			=> $jsPath.'swiper.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'wow-min-js',
+						'handler'		=> 'amor-wow-min-js',
 						'file' 			=> $jsPath.'wow.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-smooth-scroll-js',
+						'handler'		=> 'amor-jquery-smooth-scroll-js',
 						'file' 			=> $jsPath.'jquery.smooth-scroll.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'instagram-feed-js',
+						'handler'		=> 'amor-instagram-feed-js',
 						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'masonry-pkgd-js',
-						'file' 			=> $jsPath.'masonry.pkgd.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'owl-carousel-js',
+						'handler'		=> 'amor-owl-carousel-js',
 						'file' 			=> $jsPath.'owl.carousel.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-nice-select-js',
+						'handler'		=> 'amor-jquery-nice-select-js',
 						'file' 			=> $jsPath.'jquery.nice-select.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-counterup-js',
+						'handler'		=> 'amor-jquery-counterup-js',
 						'file' 			=> $jsPath.'jquery.counterup.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-countdown-js',
+						'handler'		=> 'amor-jquery-countdown-js',
 						'file' 			=> $jsPath.'jquery.countdown.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'waypoints-min-js',
+						'handler'		=> 'amor-waypoints-min-js',
 						'file' 			=> $jsPath.'waypoints.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'loopcounter-js',
+						'handler'		=> 'amor-loopcounter-js',
 						'file' 			=> $jsPath.'loopcounter.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery-ajaxchimp-js',
+						'handler'		=> 'amor-jquery-ajaxchimp-js',
 						'file' 			=> $jsPath.'jquery.ajaxchimp.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'slick-min-js',
+						'handler'		=> 'amor-slick-min-js',
 						'file' 			=> $jsPath.'slick.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',

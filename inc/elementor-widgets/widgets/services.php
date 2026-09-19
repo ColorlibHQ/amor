@@ -102,7 +102,7 @@ class Amor_Services extends Widget_Base {
                         'name'      => 'icon',
                         'label'     => __( 'Select Icon', 'amor' ),
                         'type'      => Controls_Manager::ICON,
-                        'default'   => 'fa fa-mobile',
+                        'default'   => 'fa-solid fa-mobile',
                         'options'   => amor_flaticon_list()
                     ],
                     [

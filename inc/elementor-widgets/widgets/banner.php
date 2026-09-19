@@ -259,7 +259,7 @@ class Amor_Banner extends Widget_Base {
                             <div class="extends_video">
                                 <a id="play-video_1" class="video-play-button popup-youtube"
                                     href="<?php echo esc_url( $popup_vid_url )?>">
-                                    <span class="fa fa-play"></span>
+                                    <span class="fa-solid fa-play"></span>
                                 </a>
                             </div>
                         </div>

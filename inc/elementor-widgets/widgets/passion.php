@@ -102,7 +102,7 @@ class Amor_Passion extends Widget_Base {
                         'label' => __( 'Goal Icon', 'amor' ),
                         'type'      => Controls_Manager::ICON,
                         'label_block'   => true,
-                        'default'   => 'fa fa-mobile',
+                        'default'   => 'fa-solid fa-mobile',
                         'options'   => amor_flaticon_list()
                     ],
                     [
@@ -117,7 +117,7 @@ class Amor_Passion extends Widget_Base {
                         'label' => __( 'Raised Icon', 'amor' ),
                         'type'      => Controls_Manager::ICON,
                         'label_block'   => true,
-                        'default'   => 'fa fa-mobile',
+                        'default'   => 'fa-solid fa-mobile',
                         'options'   => amor_flaticon_list()
                     ],
                     [
